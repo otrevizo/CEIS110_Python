@@ -4,11 +4,13 @@ _Oscar A. Trevizo, Visiting Professor_
 
 _Computer Engineering and Information Sciences (CEIS)_
 
-_July 2023_
+_March 2024_
 
 This repository contains Python files to supplement CEIS110 lessons.
 
 YouTube videos:
+
+Playlist from July 2023:
 https://www.youtube.com/playlist?list=PLJgpRhj3_bvGVO7lua6wuWe-4rXtm1da2 
 
 ## Modules: Python topics
