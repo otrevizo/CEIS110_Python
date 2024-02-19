@@ -10,8 +10,9 @@ This repository contains Python files to supplement CEIS110 lessons.
 
 YouTube videos:
 
-Playlist from July 2023:
-https://www.youtube.com/playlist?list=PLJgpRhj3_bvGVO7lua6wuWe-4rXtm1da2 
+Playlist:
+[[https://www.youtube.com/playlist?list=PLJgpRhj3_bvGVO7lua6wuWe-4rXtm1da2](https://www.youtube.com/playlist?list=PLJgpRhj3_bvGzaEGvFzFXy0Nij1nuYOGS) 
+](https://www.youtube.com/playlist?list=PLJgpRhj3_bvGzaEGvFzFXy0Nij1nuYOGS)
 
 ## Modules: Python topics
 
