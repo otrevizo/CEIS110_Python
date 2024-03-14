@@ -333,6 +333,7 @@ df1.Celsius.plot(label='period')
 df2.Celsius.plot(label='period 2')
 plt.legend(loc='best')
 plt.suptitle('Celsius')
+plt.show()
 
 # %%% Histogram
 # Histogram
@@ -355,7 +356,7 @@ plt.show()
 """
 Tips and references:
 
-runfile('api_noaa_weather.py')
+runfile('filename.py')
 
 # Delete all variables from the namespace
 %reset
