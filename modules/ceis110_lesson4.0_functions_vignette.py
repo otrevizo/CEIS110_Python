@@ -148,8 +148,8 @@ def add_2_nums_noreturn(x, y):
     z = x + y
     print(z)
 
-# %%% Call the function - two arguments and nothing to return
-# Examples
+# %%% Examples: Call the function - two arguments and nothing to return
+# 
 add_2_nums_noreturn(100, 200)
 add_2_nums_noreturn(3, 5)
 
@@ -170,24 +170,17 @@ def add_2_nums_withreturn(x, y):
     z = x + y
     return z
 
-# %%% Function with args, and with return
+# %%% Examples: Function with args, and with return
 #
-# Takes 2 numbers and adds them, and get a return
-
-# Example 1
-a = 10
-b = 4
-c = add_2_nums_withreturn(a, b)
+c = add_2_nums_withreturn(10, 4)
 print(c)
 
-# Example 2
 anumber = 7
 another_number = 9.81
 sum_of_the_numbers = add_2_nums_withreturn(anumber, another_number)
 print(sum_of_the_numbers)
 
-# Example 3
-# What happens if I send non-numeric arguments?
+# %%% Example 3 what happens if I send non-numeric arguments?
 p = 'foo'
 q = 25
 r = add_2_nums_withreturn(p, q)
@@ -214,43 +207,33 @@ def line(x, b, m=1):
     y = m * x + b
     return y
     
-# %%% Function with three numeric args, default values, and with return
+# %%% Examples: function with three numeric args
 #
-#
-# Example 1 - Normal
-x1 = 2
-m1 = 3
-b1 = 4
-
-y1 = line(x1, b1, m1)
+y1 = line(2, 3, 4)
 print(y1)
 
-# Example 2 - Do not include m, and let it take the default value
-x2 = 2
-b2 = 3
-
-y2 = line(x2, b2)
+# Function with two numeric args, and use default value
+#
+y2 = line(2, 3)
 print(y2)
 
 # %% Function with a flexible number of arguments
 #
 # Modified a classic ftn from GeeksForGeeks to include more parameters
-def flexi_function(x, *args):
+def flexi_function(*args):
     """
     Prints the parameters that it receives
     The key here is there is an * asterik before the parameter args
     When a param has an * the parmeter will have a number of params in it
     
     Parameters:
-    x (any type): The value on the x-axis
     args (various values): A flexible list of parameters form a tuple (list)
     
     Returns:
     Nothing
   
     """
-    print('The first parameter x is', x)
-    
+ 
     # This four loop iterates through the number of parameters
     # It means, it pulls one parameter at a time
     # and then it prints it
@@ -261,19 +244,9 @@ def flexi_function(x, *args):
 # GeeksForGeeks: https://www.geeksforgeeks.org/args-kwargs-python/
 # Stackoverflow: https://stackoverflow.com/questions/36901/what-does-double-star-asterisk-and-star-asterisk-do-for-parameters
 
-# %%% Use  ftn special list of *args
-#
-# Exampe 1
-x1 = 2
-a1 = 'foo'
-a2 = 'ceis110'
-a3 = 'yaayy!!'
-a4 = 24
-a5 = 'Beatles'
-flexi_function(x1, a1, a2, a3, a4)
-
-# Example 2
-flexi_function(35, a1, a4)
+# %%% Examples: *args 
+flexi_function(2, 'foo', 'ceis110', 3.14, 'John', 'Paul', 'George', 'Ringo')
+flexi_function(35, 'Billy', 'Shears')
 
 # %% Function with a flexible number of arguments in dictionary format
 # Dictionary format means each element has a key words and their values
@@ -314,7 +287,7 @@ take_various_kewordvars(name="Billy", lastname="Shears")
 
 take_various_kewordvars(name="Jojo", city="Tucson", state="Arizona")
 
-d = take_various_kewordvars(city="Liverpool", country="UK", population=661419)
+d = take_various_kewordvars(city="Liverpool", country="UK", population=496784)
 
 d.items()
 
