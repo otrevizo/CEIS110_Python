@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Updated 3/14/2024
+Updated 3/18/2024
 
 Vignette: Introduction to Python Functions
 
@@ -46,7 +46,7 @@ help(max)
 #
 # And many more
 #
-# %% There are methods (actually) functions within objects that you have used
+# %% There are methods (actually functions) within objects that you have used
 
 # For example let's use the 'random' module
 import random as rd
