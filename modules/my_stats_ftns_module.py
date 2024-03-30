@@ -46,7 +46,7 @@ def mean_s(*n):
     for value_n in n:
         sum_n = sum_n + value_n
         
-    # COmpute the mean
+    # Compute the mean
     mu = sum_n / len(n)
     
     return mu

@@ -151,7 +151,7 @@ def add_2_nums_noreturn(x, y):
 # %%% Examples: Call the function - two arguments and nothing to return
 # 
 add_2_nums_noreturn(100, 200)
-add_2_nums_noreturn(3, 5)
+add_2_nums_noreturn(10, 5)
 
 
 # %% Function with two numeric arguments and with return
@@ -181,9 +181,11 @@ sum_of_the_numbers = add_2_nums_withreturn(anumber, another_number)
 print(sum_of_the_numbers)
 
 # %%% Example 3 what happens if I send non-numeric arguments?
-p = 'foo'
+p = 225
 q = 25
 r = add_2_nums_withreturn(p, q)
+
+print(r)
 
 # %% Function with three numeric arguments, default values, and with return
 #
